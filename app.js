@@ -2,6 +2,14 @@
 $(document).ready(function() {
 //Landscaping Javascript
 
+$(document).ready(function() {
+	$("#freequotes").show();
+    $("#freequotes").animate({left: "+=2365"}, 12000);
+  /*  $("#freequotes").delay(2000).fadeOut();*/
+
+});
+
+
 $('#landscapingServices').show();
 $('#weeklyServiceContent').slideUp();
 $('#lawnCareContent').slideUp();
