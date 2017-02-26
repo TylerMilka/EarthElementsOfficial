@@ -15,6 +15,7 @@ body, html {
 	background-size:cover;
 	font-family: "Times New Roman", Times, serif;
 	cursor: url(cursor.gif), pointer;
+	padding: 0px;
 	}
 
 h1, h2, h3 {
@@ -24,6 +25,7 @@ h1, h2, h3 {
 p {
 	font: "times new roman";
 	font-size: 17px;	
+	color: black;
 }
 
 button {
@@ -98,6 +100,12 @@ button {
 li {
 	display: inline;
 	word-spacing: 2px;
+}
+
+#serviceslist {
+	display: block;
+	font-size: 15px;
+	color: black;
 }
 
 #navoptions {
@@ -257,6 +265,10 @@ li {
 	
 }
 
+#landscapeContentPhone {
+	display: none;
+}
+
 
 #index-service-images {
 	border-width: 2px;8
@@ -289,9 +301,10 @@ li {
 }
 
 #contact-contact-form {
-	width: 100%;
+	width: 90%;
 	z-index: +1;
 	opacity: 1;
+	list-style: none;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -332,6 +345,10 @@ li {
 }
 @media  screen and (max-width: 1006px) and (min-width: 800px) {
 
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
 .containter {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -404,6 +421,7 @@ li {
 	margin-left: 40px;
 	margin-right: 15px;
 }
+
 
 
 }
@@ -501,8 +519,30 @@ li {
 .landscapingNav {
 	opacity: 1;	
 	position: absolute;
-
 }
+
+#landscapeContentPhone{
+	display: inline-block;
+}
+
+#body-left-background-landscaping {
+	display: none;
+}
+
+#body-right-background-landscaping{
+	float: right;
+	height: auto;
+	margin-top: 5px;
+	width: 95%;
+	padding-left: 0px;
+	margin-left: 0px;
+	float: left;
+	padding: left: 10px;
+}
+#landscaping-content-right{
+	display: none;
+}
+
 }
 @media  screen and (max-width: 673px) and (min-width: 480px) {
 	#index-service-images{
@@ -568,7 +608,7 @@ li {
 
 #nav {
 	position: relative;
-	margin-left: 30px;
+	margin-left: 10px;
 	text-align: center;
 }
 
@@ -611,6 +651,31 @@ li {
 	max-width: 100%;
 	height: 100%;
 }
+
+#body-left-background-landscaping {
+	display: none;
+}
+#body-right-background-landscaping{
+	float: right;
+	height: auto;
+	margin-top: 5px;
+	width: 95%;
+	padding-left: 0px;
+	margin-left: 0px;
+	float: left;
+	padding: left: 10px;
+}
+#landscapeContentPhone{
+	display: inline-block;
+}
+#landscaping-content-right{
+	display: none;
+}
+#landscaping-content-right{
+	display: none;
+}
+
+
 }
 
 

@@ -5,7 +5,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$("#freequotes").show();
     $("#freequotes").animate({left: "+=2365"}, 12000);
-  /*  $("#freequotes").delay(2000).fadeOut();*/
+    $("#freequotes").delay(2000).fadeOut();
 
 });
 
@@ -16,6 +16,7 @@ $('#lawnCareContent').slideUp();
 $('#treeServicesContent').slideUp();
 $('#installationsContent').slideUp();
 
+/* slide up whats on the inside of the container */ 
 
 $("#landscapingService").click(function(){
 	$('#landscapingServicesContent').show();
