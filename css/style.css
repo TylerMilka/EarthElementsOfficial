@@ -298,10 +298,11 @@ li {
 }
 
 #contact-contact-form {
-	width: 90%;
+	width: 80%;
 	z-index: +1;
 	opacity: 1;
 	list-style: none;
+	background-color: #e3d497;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -521,6 +522,18 @@ li {
 
 #landscapeContentPhone{
 	display: inline-block;
+		display: inline-block;
+	opacity: 1;
+	text-align: center;
+	background-color: #e3d497;
+	border-radius: 1% 1% 1% 1%;
+	font-style: arial;
+	font-weight: bold;
+	text-shadow: 1px 1px red; 
+	color: green;
+	margin-bottom: 15px;
+	text-shadow: 1px 1px #0076a3;
+
 }
 
 #body-left-background-landscaping {
@@ -662,6 +675,16 @@ li {
 }
 #landscapeContentPhone{
 	display: inline-block;
+	opacity: 1;
+	text-align: center;
+	background-color: #e3d497;
+	border-radius: 1% 1% 1% 1%;
+	font-style: arial;
+	font-weight: bold;
+	text-shadow: 1px 1px red; 
+	color: green;
+	margin-bottom: 15px;
+	text-shadow: 1px 1px #0076a3;
 }
 #landscaping-content-right{
 	display: none;
