@@ -2,6 +2,7 @@
 body{
 	background-image: url("../assets/images/grass.jpg"); /* backgound zoom cover index google */
 	background-size: cover;
+/* 	background-repeat: no-repeat; */	
 	font-family: "Times New Roman", Times, serif;
 	}
 
@@ -61,7 +62,7 @@ button {
 	max-height: 300px;
 	max-width: 300px;
 	margin-top: 2px;
-	margin-left: 15px;
+	margin-left: 39px;
 	z-index: +1;
 	opacity: 1;
 	position: absolute;
@@ -123,7 +124,7 @@ li {
 	font-size: 35px;
 	color: white;
 /*	color: #e3d497;*/
-	margin-left: 275px;
+	margin-left: 300px;
 	margin-top: 20px;
 	text-align: center;
 	position: absolute;
